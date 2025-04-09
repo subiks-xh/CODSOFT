@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <div class="logo">My Portfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle">
+        <i class="fas fa-moon" id="theme-icon"></i>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Subikshan M</span></h1>
+        <h2>Aspiring Software Engineer | Web Developer</h2>
+        <p>
+          Passionate about coding, designing, and developing interactive user
+          experiences. Let's build something amazing together!
+        </p>
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="#projects" class="btn btn-secondary">View Projects</a>
+      </div>
+      <div class="hero-image">
+        <img src="itsme.jpg" alt="Your Name" />
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p class="highlight">
+            Future <strong>Software Engineer</strong> focused on crafting
+            scalable, efficient, and visually appealing digital solutions.
+          </p>
+          <p>
+            My expertise spans across
+            <strong
+              >Full-Stack Web Development, UI/UX Design, Artificial
+              Intelligence, and Cloud Computing.</strong
+            >
+            I love solving complex challenges and building impactful digital
+            experiences.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Experience Box -->
+          <div class="about-box">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Experience</h3>
+            <p>Worked on 4+ projects including UI/UX Design, Web Design.</p>
+          </div>
+
+          <!-- Skills Box -->
+          <div class="about-box">
+            <i class="fas fa-tools"></i>
+            <h3>Skills</h3>
+            <p>
+              HTML, CSS, JavaScript, React, Node.js, Python, Java, C++, UI/UX,
+              Cloud Computing.
+            </p>
+          </div>
+
+          <!-- Vision Box -->
+          <div class="about-box">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Vision</h3>
+            <p>
+              To create innovative technologies that improve user experiences
+              and efficiency.
+            </p>
+          </div>
+
+          <!-- Achievements Box -->
+          <div class="about-box">
+            <i class="fas fa-trophy"></i>
+            <h3>Achievements</h3>
+            <p>
+              Participated in multiple hackathons, implemented real time
+              projects in c++ and led tech workshops.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <div class="skills-container">
+        <h2 class="section-title">My Skills</h2>
+
+        <p class="skills-intro">
+          I constantly improve my skill set to stay ahead in the tech world.
+          Below are some of the key areas where I specialize.
+        </p>
+
+        <!-- Skill Categories -->
+        <div class="skills-grid">
+          <div class="skill-box">
+            <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="95%">95%</div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>JavaScript (React, Node.js)</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="90%">90%</div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Python & AI/ML</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="85%">85%</div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>C++ & Java</span>
+              <div class="progress-bar">
+                <div class="progress" data-width="80%">80%</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-box">
+            <h3><i class="fas fa-user-check"></i> Soft Skills</h3>
+            <ul class="soft-skills-list">
+              <li><i class="fas fa-check"></i> Team Collaboration</li>
+              <li><i class="fas fa-check"></i> Leadership & Communication</li>
+              <li>
+                <i class="fas fa-check"></i> Problem-Solving & Critical Thinking
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Time Management & Adaptability
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tools & Technologies -->
+          <div class="skill-box">
+            <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+            <ul class="soft-skills-list">
+              <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+              <li><i class="fab fa-figma"></i> Figma & UI/UX</li>
+              <li><i class="fab fa-docker"></i> Docker & Kubernetes</li>
+              <li><i class="fas fa-cloud"></i> AWS & Firebase</li>
+            </ul>
+          </div>
+
+          <!-- Certifications & Achievements -->
+          <div class="skill-box">
+            <h3><i class="fas fa-award"></i> Certifications & Achievements</h3>
+            <ul class="soft-skills-list">
+              <li><i class="fas fa-certificate"></i> Google Cloud Certified</li>
+              <li>
+                <i class="fas fa-certificate"></i> AWS Cloud technical
+                Essentails
+              </li>
+              <li>
+                <i class="fas fa-trophy"></i> AWS Fundamentals: Addressing
+                security risks
+              </li>
+              <li>
+                <i class="fas fa-graduation-cap"></i> Full-Stack Developer
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="education-header">
+        <h2 class="section-title">Education</h2>
+        <p class="education-intro">
+          My academic journey has shaped my knowledge and skills. Here’s a look
+          at my education history.
+        </p>
+      </div>
+
+      <div class="education-container">
+        <div class="education-timeline">
+          <!-- College -->
+          <div class="education-item">
+            <div class="education-icon">🎓</div>
+            <div class="education-content">
+              <h3>Bachelor's in Computer Science</h3>
+              <span class="education-year">2023 - 2027</span>
+              <p>
+                Studying advanced computing, AI, and software development.
+                Participated in coding competitions, hackathons, and research
+                projects.
+              </p>
+            </div>
+          </div>
+
+          <!-- High School -->
+          <div class="education-item">
+            <div class="education-icon">🏫</div>
+            <div class="education-content">
+              <h3>High School - Science Stream</h3>
+              <span class="education-year">2019 - 2022</span>
+              <p>
+                Focused on Mathematics, Physics, and Computer Science. Developed
+                strong analytical and problem-solving skills.
+              </p>
+            </div>
+          </div>
+
+          <!-- Secondary School -->
+          <div class="education-item">
+            <div class="education-icon">📚</div>
+            <div class="education-content">
+              <h3>Secondary School</h3>
+              <span class="education-year">2010 - 2018</span>
+              <p>
+                Developed a strong foundation in Science and Mathematics.
+                Discovered my passion for coding and technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-title">
+        <h2>My Projects</h2>
+        <p>Check out some of my latest work and projects.</p>
+      </div>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="project1.png" alt="Project 1" />
+          <div class="project-content">
+            <h3>Food Delivary UI/UX DESIGN</h3>
+            <p>
+              A modern food delivery web page designed using UI/UX principles to
+              provide a smooth and user-friendly ordering experience.
+            </p>
+            <span class="tech-stack">Technologies: Figma</span>
+            <a href="#" class="btn-project">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.png" alt="Project 2" />
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>
+              A fully responsive portfolio website designed to showcase my
+              skills and experience.
+            </p>
+            <span class="tech-stack">Technologies: HTML, CSS, JavaScript</span>
+            <a href="#" class="btn-project">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project3.png" alt="Project 3" />
+          <div class="project-content">
+            <h3>Simple Landing Page</h3>
+            <p>
+              An engaging educational landing page designed with HTML & CSS to
+              effectively showcase learning content and attract learners.
+            </p>
+            <span class="tech-stack">Technologies: HTML,CSS</span>
+            <a href="#" class="btn-project">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project4.png" alt="Project 4" />
+          <div class="project-content">
+            <h3>Simple Calculator</h3>
+            <p>
+              A simple yet functional calculator built using HTML, CSS, and
+              JavaScript to perform basic arithmetic operations with an
+              intuitive user interface.
+            </p>
+            <span class="tech-stack">Technologies: JavaScript, HTML, CSS</span>
+            <a href="#" class="btn-project">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="section-title">
+        <h2>Certifications</h2>
+        <p>
+          Here’s what the Certifications i have got until now.(Few are shown
+          below)
+        </p>
+      </div>
+
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Mastering Figma: Beginner to Expert UI/UX Design
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="GuviCertification - 69hw7qm8vVe71690z1.png"
+              alt="Client 1"
+            />
+            <h3>GUVI</h3>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <p class="testimonial-text">Introduction to Generative AI</p>
+          <div class="testimonial-author">
+            <img src="gejdy018.png" alt="Client 2" />
+            <h3>Google Cloud</h3>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Full Stack Developer Bootcamp - Master Frontend to Backend
+          </p>
+          <div class="testimonial-author">
+            <img src="Screenshot 2025-04-08 194854.png" alt="Client 3" />
+            <h3>GeeksForGeeks</h3>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <p class="testimonial-text">AWS Cloud Techincal Essentails</p>
+          <div class="testimonial-author">
+            <img src="Coursera 2212110.jpg" alt="Client 4" />
+            <h3>AWS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+          <p>Got a question or a project idea? Feel free to reach out!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>
+              If you have any inquiries, collaborations, or just want to say
+              hello, drop me a message!
+            </p>
+
+            <div class="contact-details">
+              <p><strong>Email:</strong> msubikshan2297@gmail.com</p>
+              <p><strong>Phone:</strong> +91 9894789694</p>
+              <p><strong>Location:</strong> Nagercoil, India</p>
+              <p>Looking to collaborate? Download my resume below:</p>
+              <a
+                href="blue professional modern CV resume.pdf"
+                download
+                class="btn-primary"
+                >Download</a
+              >
+            </div>
+
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/m-subikshan-5229b5256/"
+                target="_blank"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a href="https://github.com/subiks-xh" target="_blank">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+                  alt="GitHub"
+                />
+              </a>
+              <a href="https://x.com/Subiks__x" target="_blank">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg"
+                  alt="Twitter"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Send a Message</h3>
+            <form action="#" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <!-- About Section -->
+        <div class="footer-column">
+          <h3>About Me</h3>
+          <p>
+            A passionate developer creating stunning and functional web
+            experiences. Always learning, always innovating.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-column">
+          <h3>Follow Me</h3>
+          <div class="footer-social-icons">
+            <a
+              href="https://www.facebook.com/profile.php?id=100092466345647"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://x.com/Subiks__x" target="_blank">
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg"
+                alt="Twitter"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/m-subikshan-5229b5256/"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+            <a href="https://github.com/subiks-xh" target="_blank">
+              <img
+                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+                alt="GitHub"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
